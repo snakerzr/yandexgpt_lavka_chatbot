@@ -8,7 +8,7 @@ from src.Chatbot import Chatbot
 
 
 # default session variables initialization
-default_session_state_dict = {"n_row": 0, "env_loaded": False, "user_input": ""}
+default_session_state_dict = {"n_row": 0, "env_loaded": False}
 
 for key, value in default_session_state_dict.items():
     if key not in st.session_state:
