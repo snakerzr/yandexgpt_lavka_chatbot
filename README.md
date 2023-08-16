@@ -51,4 +51,4 @@ https://lavkagpt.streamlit.app/
 
 Введите запрос, нажмите `Send`
 
-If you check the show_thoughts box, then internal requests and responses will appear.
+Если вы установите флажок show_thoughts, то будут отображаться внутренние запросы и ответы.
