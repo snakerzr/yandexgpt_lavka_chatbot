@@ -397,6 +397,7 @@ class Chatbot:
             invalid_complaint_message = """Не могу найти такой товар в заказе. Видимо, произошла какая-то ошибка. Перевожу на оператора."""
             self._send_message_to_client(invalid_complaint_message)
             return invalid_complaint_message
+        
         elif complaint_valid:
             # Есть товар в заказе.
             photo_request_message = (
@@ -536,8 +537,7 @@ class Chatbot:
                     return {"response": response}
             elif sub_class == "3":
                 response = self._subclass_3_check(troubled_product, order_list)
-                if debug:
-                    print(coupon_dict)
+
                 if debug:
                     return {
                         "c1_class": c1_class,

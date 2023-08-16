@@ -2,5 +2,6 @@
 lol_ok.csv
 lol_ok_2.csv
 NOTES.md
-streamlit2.py
+streamlit*.py
 */__pycache__
+__pycache__

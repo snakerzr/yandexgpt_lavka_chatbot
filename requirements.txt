@@ -1,0 +1,6 @@
+streamlit==1.25.0
+langchain==0.0.266
+pyjwt==2.8.0
+python-dotenv==1.0.0
+pandas==2.0.3
+cryptography==41.0.3
