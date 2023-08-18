@@ -28,7 +28,7 @@ class YandexGPT(LLM):
 
     def __init__(self, temperature=None, load_env_from_file=False):
         super().__init__()
-        if temperature not None:
+        if temperature is not None:
             self.temperature = temperature
 
         if load_env_from_file:
