@@ -5,6 +5,7 @@ import os
 import random
 from src.YandexGPT import YandexGPT
 from src.Chatbot import Chatbot
+from src.utils import load_df
 
 
 # default session variables initialization
@@ -38,7 +39,8 @@ uploaded_file = st.file_uploader(
 )
 
 
-df = pd.read_csv("data/customer_complaints.csv")
+df = load_df("data/customer_complaints.csv")
+
 df_view = df[
     [
         "Тон обращения",
