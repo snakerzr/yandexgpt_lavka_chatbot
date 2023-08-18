@@ -26,8 +26,10 @@ class YandexGPT(LLM):
 
     # last_request_time: int = 0
 
-    def __init__(self, load_env_from_file=False):
+    def __init__(self, temperature=None, load_env_from_file=False):
         super().__init__()
+        if temperature not None:
+            self.temperature = temperature
 
         if load_env_from_file:
             load_dotenv(find_dotenv())
