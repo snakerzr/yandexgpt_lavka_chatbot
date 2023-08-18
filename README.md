@@ -44,8 +44,11 @@ https://lavkagpt.streamlit.app/
 
 ![Alt text](image-1.png)
 
+
 Информация о заказе
 
 ![Alt text](image-2.png)
 
 Введите запрос, нажмите `Send`
+
+Если вы установите флажок show_thoughts, то будут отображаться внутренние запросы и ответы.
